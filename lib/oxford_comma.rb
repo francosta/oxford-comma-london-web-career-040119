@@ -9,7 +9,7 @@ def oxford_comma(array)
   elsif array.length == 2
     array.join(" and ")
   else
-    last_element = " and #{array.pop}.".to_a
+    last_element = " and #{array.pop}."
     binding.pry
     new_array = array.join(", ")
   end
