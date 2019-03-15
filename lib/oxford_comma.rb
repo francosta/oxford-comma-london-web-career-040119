@@ -10,7 +10,7 @@ def oxford_comma(array)
     array.join(" and ")
   else
     last_element = " and #{array.pop}."
-    binding.pry
     new_array = array.join(", ")
+    binding.pry
   end
 end
