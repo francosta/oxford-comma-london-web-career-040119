@@ -12,9 +12,5 @@ def oxford_comma(array)
     last_element = array.pop
     binding.pry
     array.join(", ")
-
-
-
-    array.join()
   end
 end
