@@ -11,6 +11,6 @@ def oxford_comma(array)
   else
     last_element = " and #{array.pop}."
     new_array = array.join(", ")
-    binding.pry
+    all_elements = new_array.concat(last_element)
   end
 end
